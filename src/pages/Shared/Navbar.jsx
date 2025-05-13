@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import { CiUser } from "react-icons/ci";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -11,7 +10,7 @@ const Navbar = () => {
     return (
          <nav className="shadow-md bg-[#232F3E] sticky top-0 z-50 border-b border-gray-300 text-gray-50 flex  justify-between items-center  w-full px-3 md:px-6 lg:px-10 py-4 ">
 
-          <h1 className="text-xl max-sm:hidden font-bold font-outfit"><span className="text-orange-600">N</span>ovaBuy</h1>
+          <h1 className="text-2xl max-sm:hidden font-bold font-outfit"><span className="text-orange-600">N</span>ovaBuy</h1>
         <div>
         <button className="md:hidden hover:border p-1" onClick={() => setOpen(!open)}>
             {
@@ -30,8 +29,8 @@ const Navbar = () => {
         </div>
          <div className="flex items-center  gap-3 ">
          <button className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>
-        <button className="flex items-center gap-2 hover:text-gray-900 transition">
-          <CiUser />
+        <button >
+        
           Account
         </button>
       </div>

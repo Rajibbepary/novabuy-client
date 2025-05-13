@@ -7,12 +7,12 @@ const Footer = () => {
           <div className="w-full flex flex-col">
                     <div className="grid lg:grid-cols-2">
                         <div className="py-8 flex flex-col items-center text-[hsla(0,0%,101%,1)] bg-[hsla(215,27%,17%,1)]">
-                            <h2 className="text-[32px] font-semibold ">CONTACT US</h2>
+                            <h2 className="text-[26px] font-semibold ">Services</h2>
                             <div className="flex flex-col items-center gap-3 py-3">
-                                <p> 123 ABS Street, Uni 21, Bangladesh</p>
-                               <p> +88 123456789</p>
-                               <p>Mon - Fri: 08:00 - 22:00</p>
-                                <p className="mb-4"> Sat - Sun: 10:00 - 23:00</p>
+                                <p className="hover:border-b"> Product Support</p>
+                               <p className="hover:border-b"> Order Tracking</p>
+                               <p className="hover:border-b">Shipping & Delivery</p>
+                                <p className="mb-4 hover:border-b"> Shipping & Delivery</p>
                             </div>
                         </div>
                         <div className=" py-8 bg-[hsla(220,39%,11%,1)] text-[hsla(0,0%,101%,1)] flex flex-col gap-4 items-center">

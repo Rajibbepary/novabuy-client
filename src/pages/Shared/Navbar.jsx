@@ -9,11 +9,11 @@ const Navbar = () => {
        const [open, setOpen] = useState(false)
 
     return (
-         <nav className="shadow-md sticky top-0 z-50 border-b border-gray-300 text-gray-700 flex  justify-between items-center  w-full px-3 md:px-6 lg:px-10 py-4 ">
+         <nav className="shadow-md bg-[#232F3E] sticky top-0 z-50 border-b border-gray-300 text-gray-50 flex  justify-between items-center  w-full px-3 md:px-6 lg:px-10 py-4 ">
 
           <h1 className="text-xl max-sm:hidden font-bold"><span className="text-orange-600">N</span>ovaBuy</h1>
         <div>
-        <button className="md:hidden" onClick={() => setOpen(!open)}>
+        <button className="md:hidden hover:border p-1" onClick={() => setOpen(!open)}>
             {
                 open === true ?
                  <IoMdClose className="text-2xl font-bold" /> :

@@ -20,10 +20,10 @@ const Navbar = () => {
             }
             </button>
             <ul className={`md:flex duration-1000 max-sm:py-8 max-sm:px-4 max-sm:pr-10 max-sm:right-6 max-sm:space-y-4 ${open ? 'top-14' : '-top-60'} max-sm:bg-[#232F3E] text-gray-50  max-sm:shadow-xl rounded-md absolute md:static gap-12 text-[15px]`}>
-                <li><Link className="relative  text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full font-semibold">Home</Link></li>
-                <li><Link  className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full font-semibold">Shop</Link></li>
-                <li><Link  className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full font-semibold">About</Link></li>
-                <li><Link  className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full font-semibold">Contact</Link></li>
+                <li><Link className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full ">Home</Link></li>
+                <li><Link  className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full ">Shop</Link></li>
+                <li><Link  className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full ">About</Link></li>
+                <li><Link  className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full ">Contact</Link></li>
             </ul>
             
         </div>

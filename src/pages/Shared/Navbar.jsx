@@ -1,14 +1,25 @@
 
 import { useClerk, useUser, UserButton} from "@clerk/clerk-react";
-import { useState } from "react";
+import {  useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
+
+const BookIcon = ()=>(
+    <svg className="w-4 h-4 text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" >
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4" />
+</svg>
+)
+
 
 const Navbar = () => {
        const [open, setOpen] = useState(false)
+       
         const {openSignIn} = useClerk()
         const {user} = useUser()
+        const navigate = useNavigate()
+        
+      
     return (
          <nav className="shadow-md bg-[#232F3E] sticky top-0 z-50 border-b border-gray-300 text-gray-50 flex  justify-between items-center  w-full px-3 md:px-6 lg:px-10 py-4 ">
 
@@ -31,10 +42,14 @@ const Navbar = () => {
         </div>
          <div className="flex items-center  gap-3 ">
          <button className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>
-        <button onClick={openSignIn}>
-        
+         {user ? (<UserButton>
+
+          <UserButton.MenuItems>
+            <UserButton.Action label="My Shop" labelIcon={<BookIcon/>} onClick={()=> navigate('/')} />
+          </UserButton.MenuItems>
+         </UserButton>) : (<button onClick={openSignIn}>
           Account
-        </button>
+        </button>)}
       </div>
      </nav>
     );

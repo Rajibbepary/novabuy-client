@@ -1,14 +1,10 @@
-import ProductsCard from "./ProductsCard";
+import React from 'react';
 
 const HomeProducts = () => {
-
-   
-    
     return (
-    <>
-    
-    
-    </>
+        <div>
+            
+        </div>
     );
 };
 

@@ -1,0 +1,182 @@
+
+[
+   
+  {
+    "product_id": "SW1002",
+    "product_title": "Smart Watch Pro - Blood Oxygen Monitor",
+    "product_image": "https://i.ibb.co.com/5LhdTk8/cmf-by-nothing-watch-pro-smartwatch-1.webp",
+    "category": "Smart Watch",
+    "price": 199.99,
+    "description": "Advanced smart watch with blood oxygen monitoring, sleep tracking, and customizable faces.",
+    "specification": [
+      {"feature": "Battery Life", "value": "10 days"},
+      {"feature": "Display", "value": "1.4 inch OLED"},
+      {"feature": "Water Resistance", "value": "5 ATM"}
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "color": "Black",
+    "discount": "10%"
+  },
+    
+    {
+      "product_id": "M1003",
+      "product_title": "Budget Smartphone A5 - 64GB",
+      "product_image": "https://i.ibb.co.com/74y93Nv/iphone-card-40-iphone16prohero-202409-FMT-WHH.jpg",
+      "category": "Mobile",
+      "price": 199.99,
+      "description": "Affordable smartphone with a good camera, reliable performance, and decent storage.",
+      "specification": [
+        {"feature": "Storage", "value": "64GB"},
+        {"feature": "Camera", "value": "12MP"},
+        {"feature": "Battery", "value": "4000mAh"},
+        {"feature": "Display", "value": "6.1 inch LCD"}
+      ],
+      "availability": false,
+      "rating": 4.2,
+      "color": "Gray"
+    },
+    {
+      "product_id": "L1001",
+      "product_title": "Laptop Z-Series - 16GB RAM, 512GB SSD",
+      "product_image": "https://i.ibb.co.com/SfvkFN3/HP-Laptop-15-ef2127wm-bd-1.webp",
+      "category": "Laptop",
+      "price": 999.99,
+      "description": "Powerful laptop with Intel i7 processor, 16GB RAM, and a fast SSD for smooth performance.",
+      "specification": [
+        {"feature": "Processor", "value": "Intel i7"},
+        {"feature": "RAM", "value": "16GB"},
+        {"feature": "Storage", "value": "512GB SSD"},
+        {"feature": "Display", "value": "15.6 inch Full HD"}
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "warranty": "2 years"
+    },
+
+    {
+      "product_id": "M1001",
+      "product_title": "Smartphone X1 Pro - 128GB",
+      "product_image": "https://i.ibb.co.com/KGgtYJF/Pixel-7-Pro-Snow-custom-mac-bd.webp",
+      "category": "Mobile",
+      "price": 499.99,
+      "description": "Feature-packed smartphone with 128GB storage, dual cameras, and a vibrant display.",
+      "specification": [
+        {"feature": "Storage", "value": "128GB"},
+        {"feature": "Camera", "value": "50MP + 8MP"},
+        {"feature": "Battery", "value": "4500mAh"},
+        {"feature": "Display", "value": "6.5 inch OLED"}
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "color": "Blue",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "L1002",
+      "product_title": "Gaming Laptop X-Pro - 32GB RAM, 1TB SSD",
+      "product_image": "https://i.ibb.co.com/g6kvF2C/huawei-matebook-x-pro-price.webp",
+      "category": "Laptop",
+      "price": 1499.99,
+      "description": "High-performance gaming laptop with powerful GPU and large SSD for smooth gameplay.",
+      "specification": [
+        {"feature": "Processor", "value": "AMD Ryzen 9"},
+        {"feature": "RAM", "value": "32GB"},
+        {"feature": "Storage", "value": "1TB SSD"},
+        {"feature": "Graphics", "value": "NVIDIA RTX 3060"}
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "warranty": "2 years",
+      "discount": "5%"
+    },
+
+    {
+      "product_id": "M1002",
+      "product_title": "Smartphone Y Ultra - 256GB",
+      "product_image": "https://i.ibb.co.com/rmHydBs/images.jpg",
+      "category": "Mobile",
+      "price": 699.99,
+      "description": "High-end smartphone with 256GB storage, excellent camera capabilities, and fast charging.",
+      "specification": [
+        {"feature": "Storage", "value": "256GB"},
+        {"feature": "Camera", "value": "108MP"},
+        {"feature": "Battery", "value": "5000mAh"},
+        {"feature": "Display", "value": "6.7 inch AMOLED"}
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "color": "Black",
+      "discount": "10%"
+    },
+    {
+      "product_id": "L1003",
+      "product_title": "Ultrabook S5 - 8GB RAM, 256GB SSD",
+      "product_image": "https://i.ibb.co.com/ftqKw9N/images-1.jpg",
+      "category": "Laptop",
+      "price": 699.99,
+      "description": "Slim and lightweight ultrabook with a sleek design, ideal for productivity on the go.",
+      "specification": [
+        {"feature": "Processor", "value": "Intel i5"},
+        {"feature": "RAM", "value": "8GB"},
+        {"feature": "Storage", "value": "256GB SSD"},
+        {"feature": "Display", "value": "14 inch Full HD"}
+      ],
+      "availability": false,
+      "rating": 4.4,
+      "color": "Silver"
+    },
+    {
+      "product_id": "SW1001",
+      "product_title": "Smart Watch Active - GPS, Heart Rate Monitor",
+      "product_image": "https://i.ibb.co.com/GxW1S3S/ks-pro-black-01-500x500.webp",
+      "category": "Smart Watch",
+      "price": 149.99,
+      "description": "Stylish smart watch with built-in GPS, heart rate monitoring, and fitness tracking.",
+      "specification": [
+        {"feature": "Battery Life", "value": "5 days"},
+        {"feature": "Display", "value": "1.2 inch AMOLED"},
+        {"feature": "Water Resistance", "value": "50 meters"}
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "warranty": "1 year"
+    },
+    
+    {
+      "product_id": "SW1003",
+      "product_title": "Smart Watch Lite - Fitness Tracking",
+      "product_image": "https://i.ibb.co.com/MCHW3h5/images-2.jpg",
+      "category": "Smart Watch",
+      "price": 99.99,
+      "description": "Affordable smart watch with essential fitness tracking features and a long battery life.",
+      "specification": [
+        {"feature": "Battery Life", "value": "14 days"},
+        {"feature": "Display", "value": "1.3 inch LCD"},
+        {"feature": "Water Resistance", "value": "3 ATM"}
+      ],
+      "availability": false,
+      "rating": 4.3,
+      "color": "Gray"
+    },
+    {
+      "product_id": "M1004",
+      "product_title": "Smartphone Z Max - 512GB",
+      "product_image": "https://i.ibb.co.com/8cdkb0B/images-3.jpg",
+      "category": "Mobile",
+      "price": 899.99,
+      "description": "Flagship smartphone with massive storage, 120Hz refresh rate, and high-resolution camera.",
+      "specification": [
+        {"feature": "Storage", "value": "512GB"},
+        {"feature": "Camera", "value": "64MP + 12MP + 8MP"},
+        {"feature": "Battery", "value": "6000mAh"},
+        {"feature": "Display", "value": "6.9 inch AMOLED, 120Hz"}
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "color": "Gold",
+      "warranty": "1 year",
+      "discount": "15%"
+    }
+  ]
+  

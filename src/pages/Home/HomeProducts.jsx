@@ -1,9 +1,14 @@
+import ProductsCard from "./ProductsCard";
 
 const HomeProducts = () => {
+
+   
+    
     return (
-        <div>
-            
-        </div>
+    <>
+    
+    
+    </>
     );
 };
 

@@ -25,6 +25,13 @@ const BookIcon = () => (
 );
 
 const Navbar = () => {
+
+  const navLinks = [
+        { name: 'Home', path: '/' },
+        { name: 'Products', path: '/' },
+        { name: 'Contact', path: '/' },
+        { name: 'About', path: '/' },
+    ];
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -64,13 +71,13 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-12 text-[15px]">
-          {["Home", "Shop", "About", "Contact"].map((item) => (
-            <li key={item}>
+          {navLinks.map((item) => (
+            <li key={item.name}>
               <Link
-                to="/"
+                to={item.path}
                 className="relative text-[16px] capitalize no-underline before:absolute before:left-0 before:bottom-[-6px] before:w-0 before:h-[2px] before:bg-orange-600 before:transition-all before:duration-500 hover:before:w-full"
               >
-                {item}
+                {item.name}
               </Link>
             </li>
           ))}
@@ -104,14 +111,14 @@ const Navbar = () => {
         } ${scrolled ? "bg-white text-black" : "bg-[#232F3E] text-white"}`}
       >
         <div className="p-6 flex flex-col gap-6 pt-20 text-lg font-medium">
-          {["Home", "Shop", "About", "Contact"].map((item) => (
+          {navLinks.map((item) => (
             <Link
-              key={item}
-              to="/"
+              key={item.name}
+              to={item.path}
               onClick={() => setOpen(false)}
               className="capitalize hover:text-orange-600"
             >
-              {item}
+              {item.name}
             </Link>
           ))}
 

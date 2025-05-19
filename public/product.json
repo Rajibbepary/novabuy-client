@@ -2,7 +2,7 @@
 [
    
   {
-    "product_id": "SW1002",
+   
     "product_title": "Smart Watch Pro - Blood Oxygen Monitor",
     "product_image": "https://i.ibb.co.com/5LhdTk8/cmf-by-nothing-watch-pro-smartwatch-1.webp",
     "category": "Smart Watch",
@@ -20,7 +20,7 @@
   },
     
     {
-      "product_id": "M1003",
+     
       "product_title": "Budget Smartphone A5 - 64GB",
       "product_image": "https://i.ibb.co.com/74y93Nv/iphone-card-40-iphone16prohero-202409-FMT-WHH.jpg",
       "category": "Mobile",
@@ -37,7 +37,7 @@
       "color": "Gray"
     },
     {
-      "product_id": "L1001",
+      
       "product_title": "Laptop Z-Series - 16GB RAM, 512GB SSD",
       "product_image": "https://i.ibb.co.com/SfvkFN3/HP-Laptop-15-ef2127wm-bd-1.webp",
       "category": "Laptop",
@@ -55,7 +55,7 @@
     },
 
     {
-      "product_id": "M1001",
+     
       "product_title": "Smartphone X1 Pro - 128GB",
       "product_image": "https://i.ibb.co.com/KGgtYJF/Pixel-7-Pro-Snow-custom-mac-bd.webp",
       "category": "Mobile",
@@ -73,7 +73,7 @@
       "warranty": "1 year"
     },
     {
-      "product_id": "L1002",
+      
       "product_title": "Gaming Laptop X-Pro - 32GB RAM, 1TB SSD",
       "product_image": "https://i.ibb.co.com/g6kvF2C/huawei-matebook-x-pro-price.webp",
       "category": "Laptop",
@@ -92,7 +92,7 @@
     },
 
     {
-      "product_id": "M1002",
+      
       "product_title": "Smartphone Y Ultra - 256GB",
       "product_image": "https://i.ibb.co.com/rmHydBs/images.jpg",
       "category": "Mobile",
@@ -110,7 +110,7 @@
       "discount": "10%"
     },
     {
-      "product_id": "L1003",
+     
       "product_title": "Ultrabook S5 - 8GB RAM, 256GB SSD",
       "product_image": "https://i.ibb.co.com/ftqKw9N/images-1.jpg",
       "category": "Laptop",
@@ -127,7 +127,7 @@
       "color": "Silver"
     },
     {
-      "product_id": "SW1001",
+    
       "product_title": "Smart Watch Active - GPS, Heart Rate Monitor",
       "product_image": "https://i.ibb.co.com/GxW1S3S/ks-pro-black-01-500x500.webp",
       "category": "Smart Watch",
@@ -144,7 +144,7 @@
     },
     
     {
-      "product_id": "SW1003",
+      
       "product_title": "Smart Watch Lite - Fitness Tracking",
       "product_image": "https://i.ibb.co.com/MCHW3h5/images-2.jpg",
       "category": "Smart Watch",
@@ -160,7 +160,7 @@
       "color": "Gray"
     },
     {
-      "product_id": "M1004",
+      
       "product_title": "Smartphone Z Max - 512GB",
       "product_image": "https://i.ibb.co.com/8cdkb0B/images-3.jpg",
       "category": "Mobile",

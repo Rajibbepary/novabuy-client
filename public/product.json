@@ -7,6 +7,7 @@
     "product_image": "https://i.ibb.co.com/5LhdTk8/cmf-by-nothing-watch-pro-smartwatch-1.webp",
     "category": "Smart Watch",
     "price": 199.99,
+   "quantity": 1,
     "description": "Advanced smart watch with blood oxygen monitoring, sleep tracking, and customizable faces.",
     "specification": [
       {"feature": "Battery Life", "value": "10 days"},
@@ -25,6 +26,7 @@
       "product_image": "https://i.ibb.co.com/74y93Nv/iphone-card-40-iphone16prohero-202409-FMT-WHH.jpg",
       "category": "Mobile",
       "price": 199.99,
+      "quantity": 1,
       "description": "Affordable smartphone with a good camera, reliable performance, and decent storage.",
       "specification": [
         {"feature": "Storage", "value": "64GB"},
@@ -42,6 +44,7 @@
       "product_image": "https://i.ibb.co.com/SfvkFN3/HP-Laptop-15-ef2127wm-bd-1.webp",
       "category": "Laptop",
       "price": 999.99,
+      "quantity": 1,
       "description": "Powerful laptop with Intel i7 processor, 16GB RAM, and a fast SSD for smooth performance.",
       "specification": [
         {"feature": "Processor", "value": "Intel i7"},
@@ -60,6 +63,7 @@
       "product_image": "https://i.ibb.co.com/KGgtYJF/Pixel-7-Pro-Snow-custom-mac-bd.webp",
       "category": "Mobile",
       "price": 499.99,
+      "quantity": 1,
       "description": "Feature-packed smartphone with 128GB storage, dual cameras, and a vibrant display.",
       "specification": [
         {"feature": "Storage", "value": "128GB"},
@@ -78,6 +82,7 @@
       "product_image": "https://i.ibb.co.com/g6kvF2C/huawei-matebook-x-pro-price.webp",
       "category": "Laptop",
       "price": 1499.99,
+      "quantity": 1,
       "description": "High-performance gaming laptop with powerful GPU and large SSD for smooth gameplay.",
       "specification": [
         {"feature": "Processor", "value": "AMD Ryzen 9"},
@@ -97,6 +102,7 @@
       "product_image": "https://i.ibb.co.com/rmHydBs/images.jpg",
       "category": "Mobile",
       "price": 699.99,
+      "quantity": 1,
       "description": "High-end smartphone with 256GB storage, excellent camera capabilities, and fast charging.",
       "specification": [
         {"feature": "Storage", "value": "256GB"},
@@ -115,6 +121,7 @@
       "product_image": "https://i.ibb.co.com/ftqKw9N/images-1.jpg",
       "category": "Laptop",
       "price": 699.99,
+      "quantity": 1,
       "description": "Slim and lightweight ultrabook with a sleek design, ideal for productivity on the go.",
       "specification": [
         {"feature": "Processor", "value": "Intel i5"},
@@ -132,6 +139,7 @@
       "product_image": "https://i.ibb.co.com/GxW1S3S/ks-pro-black-01-500x500.webp",
       "category": "Smart Watch",
       "price": 149.99,
+      "quantity": 1,
       "description": "Stylish smart watch with built-in GPS, heart rate monitoring, and fitness tracking.",
       "specification": [
         {"feature": "Battery Life", "value": "5 days"},
@@ -149,6 +157,7 @@
       "product_image": "https://i.ibb.co.com/MCHW3h5/images-2.jpg",
       "category": "Smart Watch",
       "price": 99.99,
+      "quantity": 1,
       "description": "Affordable smart watch with essential fitness tracking features and a long battery life.",
       "specification": [
         {"feature": "Battery Life", "value": "14 days"},
@@ -165,6 +174,7 @@
       "product_image": "https://i.ibb.co.com/8cdkb0B/images-3.jpg",
       "category": "Mobile",
       "price": 899.99,
+      "quantity": 1,
       "description": "Flagship smartphone with massive storage, 120Hz refresh rate, and high-resolution camera.",
       "specification": [
         {"feature": "Storage", "value": "512GB"},

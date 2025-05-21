@@ -1,21 +1,21 @@
 
 
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const ProducDetails = () => {
     const product = useLoaderData();
 
-const {product_image, description, price, category, discount, product_title } = product;
+const {product_image, description, price, category, discount, product_title, _id } = product;
 
 
     return product && (
-        <div className="max-w-6xl  px-6 w-10/12 mx-auto my-14">
+        <div className="max-w-6xl  px-6 w-10/12 mx-auto my-14 shadow-xl py-5">
           
             <div className="flex flex-col md:flex-row gap-16 mt-4">
                 <div className="flex gap-3">
                     
 
-                    <div className="border border-gray-500/30 max-w-100 rounded overflow-hidden">
+                    <div className=" max-w-100 rounded overflow-hidden">
                         <img src={product_image} className="w-4/5 h-4/5 md:w-full md:h-full" alt="Selected product" />
 
                     </div>
@@ -79,12 +79,14 @@ const {product_image, description, price, category, discount, product_title } = 
                     </ul>
 
                     <div className="flex items-center mt-10 gap-4 text-base">
-                        <button className="w-full py-3.5 cursor-pointer font-medium bg-gray-100 text-gray-800/80 hover:bg-gray-200 transition" >
+                        <button className="w-full  py-3.5 cursor-pointer font-medium bg-gray-100 text-gray-800/80 hover:bg-gray-200 transition" >
                             Add to Cart
                         </button>
+                       <Link to={`/addcard/${_id}`} className="w-full py-3.5">
                         <button className="w-full py-3.5 cursor-pointer font-medium bg-orange-500 text-white hover:bg-orange-400 transition" >
                             Buy now
                         </button>
+                       </Link>
                     </div>
                 </div>
             </div>

@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom';
 
 const ProductsCard = ({ product }) => {
 
-        const {product_image, product_title, description, price, _id } = product;
+        const {product_image, product_title, description, price, _id} = product;
 
     return (
+
+        <>
+         <Link to={`/product/${_id}`}>
          <div
             className="flex flex-col items-start gap-0.5 mb-10  max-w-[200px] w-full cursor-pointer"
         >
@@ -51,13 +54,10 @@ const ProductsCard = ({ product }) => {
             <div className="flex items-end justify-between w-full mt-1">
                 <p className="text-base font-medium"> ${price}</p>
                 
-                <Link to={`/product/${_id}`}>
-          <button className=" max-sm:hidden px-4 py-1.5 text-gray-500 border border-gray-500/20 rounded-full text-xs hover:bg-slate-50 transition">
-                    Buy now
-                </button>
-            </Link>
             </div>
         </div>
+         </Link>
+        </>
     );
 };
 

@@ -7,13 +7,9 @@ const AddCard = () => {
 
     const product = useLoaderData();
 
-//const {product_image, description, price, category, discount, product_title, _id } = product;
-
-
     const [showAddress, setShowAddress] = useState(false);
     const [selectedAddress, setSelectedAddress] = useState("");
 
-    
     const [products, setProducts] = useState([product]);
 
     const handleQuantityChange = (index, value) => {
@@ -39,7 +35,6 @@ const AddCard = () => {
            toast.error("Your cart is empty.")
             return;
         }
-        //alert("Order placed successfully!");
         toast.success("Order placed successfully!")
         setProducts([]);
     };
@@ -47,12 +42,12 @@ const AddCard = () => {
     const { subtotal, tax, total } = getTotalPrice();
 
     return (
+        <>
         <div className="flex flex-col md:flex-row py-16 max-w-6xl w-full px-6 mx-auto">
             <div className="flex-1 max-w-4xl">
                 <h1 className="text-3xl font-medium mb-6">
                     Shopping Cart <span className="text-sm text-orange-500">{products.length} Items</span>
                 </h1>
-
                 <div className="grid grid-cols-[2fr_1fr_1fr] text-gray-500 text-base font-medium pb-3">
                     <p className="text-left">Product Details</p>
                     <p className="text-center">Subtotal</p>
@@ -114,14 +109,16 @@ const AddCard = () => {
                         {showAddress && (
                             <div className="absolute top-12 py-1 bg-white border border-gray-300 text-sm w-full">
                                 <p onClick={() => {
-                                    setSelectedAddress("New York, USA");
+                                    setSelectedAddress("Dkaka, Bangladesh");
                                     setShowAddress(false);
                                 }} className="text-gray-500 p-2 hover:bg-gray-100">
                                     Dhaka Bangladesh
                                 </p>
-                                <p onClick={() => setShowAddress(false)} className="text-orange-500 text-center cursor-pointer p-2 hover:bg-indigo-500/10">
-                                    Add address
+                               <Link to='/address'>
+                                <p onClick={() => setShowAddress(false)} className="text-gray-500 text-center cursor-pointer p-2 hover:bg-indigo-500/10">
+                                    + Add address
                                 </p>
+                               </Link>
                             </div>
                         )}
                     </div>
@@ -137,7 +134,7 @@ const AddCard = () => {
 
                 <div className="text-gray-500 mt-4 space-y-2">
                     <p className="flex justify-between"><span>Price</span><span>${subtotal.toFixed(2)}</span></p>
-                    <p className="flex justify-between"><span>Shipping Fee</span><span className="text-green-600">Free</span></p>
+                    <p className="flex justify-between"><span>Shipping Fee</span><span className="text-orange-500">Free</span></p>
                     <p className="flex justify-between"><span>Tax (2%)</span><span>${tax.toFixed(2)}</span></p>
                     <p className="flex justify-between text-lg font-medium mt-3"><span>Total Amount:</span><span>${total.toFixed(2)}</span></p>
                 </div>
@@ -147,6 +144,8 @@ const AddCard = () => {
                 </button>
             </div>
         </div>
+        
+    </>
     );
 };
 

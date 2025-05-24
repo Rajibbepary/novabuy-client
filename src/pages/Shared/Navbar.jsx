@@ -85,9 +85,12 @@ const Navbar = () => {
 
         {/* Right Section */}
         <div className="flex items-center gap-3">
+         <Link to='dashbroad/seller'>
           <button className="text-xs border px-4 py-1.5 rounded-full">
             Seller Dashboard
           </button>
+         </Link>
+         
           {user ? (
             <UserButton>
               <UserButton.MenuItems>

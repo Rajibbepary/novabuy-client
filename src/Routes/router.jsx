@@ -7,6 +7,8 @@ import Home from "../pages/Home/Home";
 import ProducDetails from "../components/product/ProducDetails";
 import AddCard from "../components/product/AddCard";
 import AddAddress from "../components/address/AddAddress";
+import Dashbroad from "../Layout/Dashbroad/Dashbroad";
+import Sidebar from "../pages/Dashbroad/seller/Sidebar";
 
 
 export const router = createBrowserRouter([
@@ -37,4 +39,15 @@ export const router = createBrowserRouter([
 
     ]
   },
+
+  {
+    path:'dashbroad',
+    element:<Dashbroad/>,
+    children:[
+      {
+        path:'seller',
+        element:<Sidebar/>
+      }
+    ]
+  }
 ]);

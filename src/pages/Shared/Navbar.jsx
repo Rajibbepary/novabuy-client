@@ -85,7 +85,7 @@ const Navbar = () => {
 
         {/* Right Section */}
         <div className="flex items-center gap-3">
-         <Link to='dashbroad/seller'>
+         <Link to='dashbroad'>
           <button className="text-xs border px-4 py-1.5 rounded-full">
             Seller Dashboard
           </button>

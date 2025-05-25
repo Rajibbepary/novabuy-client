@@ -8,7 +8,7 @@ import ProducDetails from "../components/product/ProducDetails";
 import AddCard from "../components/product/AddCard";
 import AddAddress from "../components/address/AddAddress";
 import Dashbroad from "../Layout/Dashbroad/Dashbroad";
-import Sidebar from "../pages/Dashbroad/seller/Sidebar";
+import AddProduct from "../pages/Dashbroad/seller/product/AddProduct";
 
 
 export const router = createBrowserRouter([
@@ -44,9 +44,10 @@ export const router = createBrowserRouter([
     path:'dashbroad',
     element:<Dashbroad/>,
     children:[
+    
       {
-        path:'seller',
-        element:<Sidebar/>
+        path:'addproduct',
+        element:<AddProduct/>
       }
     ]
   }

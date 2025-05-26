@@ -9,6 +9,7 @@ import AddCard from "../components/product/AddCard";
 import AddAddress from "../components/address/AddAddress";
 import Dashbroad from "../Layout/Dashbroad/Dashbroad";
 import AddProduct from "../pages/Dashbroad/seller/product/AddProduct";
+import Shop from "../pages/Home/Shop";
 
 
 export const router = createBrowserRouter([
@@ -19,6 +20,10 @@ export const router = createBrowserRouter([
         {
             path:'/',
             element:<Home/>
+        },
+        {
+          path:'shop',
+          element:<Shop/>
         },
         {
           path:'/product/:id',
@@ -35,8 +40,8 @@ export const router = createBrowserRouter([
           path:'address',
           element:<AddAddress/>,
            loader:() => fetch('http://localhost:8000/address')
-        }
-
+        },
+  
     ]
   },
 

@@ -37,7 +37,6 @@ const AddProduct = () => {
               .map((_, index) => (
                 <label key={index} htmlFor={`image${index}`}>
                   <input
-                    required
                     accept="image/*"
                     type="file"
                     name="product_image"

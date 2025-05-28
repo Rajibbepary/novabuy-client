@@ -16,7 +16,7 @@ const AddAddress = () => {
         const state = from.state.value;
         const addaddress = {Fullname,phonenumber, pincode, message, city, state}
         console.log(addaddress);
-        fetch('http://localhost:8000/address', {
+        fetch(`${import.meta.env.VITE_API_UR}/address`, {
             method:'POST',
             headers: {
                 'content-type' : 'application/json'

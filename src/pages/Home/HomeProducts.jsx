@@ -5,6 +5,7 @@ import ProductsCard from './ProductsCard';
 
 const HomeProducts = () => {
     const [products] = useProduct();
+    console.log(products)
     return (
         <div className="flex flex-col items-center pt-14 w-11/12 mx-auto">
       <p className="text-2xl font-medium text-left w-full">Popular products</p>

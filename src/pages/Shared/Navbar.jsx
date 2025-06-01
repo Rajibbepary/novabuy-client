@@ -30,7 +30,7 @@ const Navbar = () => {
         { name: 'Home', path: '/' },
         { name: 'Shop', path: '/shop' },
         { name: 'Contact', path: '/' },
-        { name: 'About', path: '/' },
+        { name: 'About', path: '/about' },
     ];
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);

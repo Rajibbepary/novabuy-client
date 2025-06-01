@@ -5,7 +5,7 @@ const useProduct = () => {
 const [product, setProduct] = useState([]);
 const [loading, setLoading] = useState(true);
 useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_UR}/products`)
+    fetch(`http://localhost:8000/products`)
         .then(res => res.json())
         .then(data => { setProduct(data)
             setLoading(false);

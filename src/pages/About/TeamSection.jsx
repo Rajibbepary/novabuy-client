@@ -2,17 +2,17 @@
                 {
                     name: 'Gias Uddin',
                     role: 'Founder & CEO',
-                    image: 'https://via.placeholder.com/150',
+                    image: 'https://i.postimg.cc/vHbCfjvX/featuredpruduct-1.jpg',
                 },
                 {
-                    name: 'Rajib Hasan',
+                    name: 'Rajib',
                     role: 'Lead Developer',
-                    image: 'https://via.placeholder.com/150',
+                    image: 'https://i.postimg.cc/vHbCfjvX/featuredpruduct-1.jpg',
                 },
                 {
                     name: 'Sarah Lee',
                     role: 'Marketing Head',
-                    image: 'https://via.placeholder.com/150',
+                    image: 'https://i.postimg.cc/vHbCfjvX/featuredpruduct-1.jpg',
                 },
                 ];
 const TeamSection = () => {
@@ -29,7 +29,7 @@ const TeamSection = () => {
             <img
               src={member.image}
               alt={member.name}
-              className="w-24 h-24 rounded-full mx-auto mb-4"
+              className="w-16 h-16  rounded-full mx-auto mb-4"
             />
             <h3 className="text-xl font-medium">{member.name}</h3>
             <p className="text-sm text-gray-500">{member.role}</p>

@@ -11,6 +11,7 @@ import Dashbroad from "../Layout/Dashbroad/Dashbroad";
 import AddProduct from "../pages/Dashbroad/seller/product/AddProduct";
 import Shop from "../pages/Home/Shop";
 import About from "../pages/About/About";
+import Contact from "../pages/contact/Contact";
 
 
 export const router = createBrowserRouter([
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
           path:'about',
           element:<About/>
         },
+        {
+          path:"contact",
+          element:<Contact/>
+        }
   
     ]
   },

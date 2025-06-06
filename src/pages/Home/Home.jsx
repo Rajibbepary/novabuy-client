@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import FeaturedPruduct from "./FeaturedPruduct";
+import HomeContact from "./HomeContact";
 import HomeProducts from "./HomeProducts";
 import HomeSlider from "./HomeSlider";
 
@@ -11,6 +12,7 @@ const Home = () => {
            <HomeProducts/>
            <FeaturedPruduct/>
            <Banner/>
+           <HomeContact/>
         </div>
     );
 };
